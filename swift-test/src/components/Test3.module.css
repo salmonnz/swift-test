@@ -1,0 +1,146 @@
+.h1 {
+  position: relative;
+  display: flex;
+  margin-left: 40px;
+}
+.spantoback {
+  display: flex;
+  position: absolute;
+  left: 95.6%;
+  height: 30px;
+  border-radius: 5px;
+  border: gray;
+  align-items: center;
+  background-color: white;
+}
+
+.bgnav {
+  background: linear-gradient(to right, #6eda78, #ffa200);
+  height: 100vh;
+}
+.linkto {
+  text-decoration: none;
+}
+
+.inbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 60%;
+  border-radius: 5px;
+  border: gray;
+  align-items: center;
+  background-color: white;
+}
+
+.divflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+.boxform {
+  display: grid;
+
+  box-sizing: border-box;
+
+  width: 65%;
+  height: 100%;
+  border-radius: 5px;
+  border: black;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 2px;
+  align-items: center;
+}
+/* firstinput */
+.firstinput {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.firstpick {
+  margin-left: 10px;
+}
+/* secondinput */
+.secondinput {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.secondpickdate {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+/* thirdinput */
+.thirdinput {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+/* fourthinput */
+.fourthinput {
+  display: grid;
+  grid-template-columns: auto;
+}
+/* fifthinput */
+.fifthinput {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+/* sixthinput */
+.sixthinput {
+  display: grid;
+  grid-template-columns: auto;
+}
+/* seventhinput */
+.seventhinput {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+/* footer */
+.footer {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  background: none;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.databox {
+  display: grid;
+  grid-template-columns: 12% 12% 30% 12% 12%;
+  align-items: center;
+  justify-content: start;
+  border-style: none;
+  border-width: 1px;
+  border-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 60px;
+  background: rgb(230, 230, 230);
+}
+.showdatabox {
+  position: relative;
+  display: grid;
+  grid-template-columns: 12% 12% 30% 12% 12%;
+  align-items: center;
+  justify-content: start;
+  border-style: none;
+  border-width: 1px;
+  border-color: white;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 16.5%;
+  background: white;
+}
+
+.emptyicon {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+}

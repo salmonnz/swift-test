@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box-element {
+  display: grid;
+  grid-column: 2;
+  justify-content: start;
+  align-items: start;
+  box-sizing: border-box;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  padding: 20px;
+  border: none;
+
+  background: white;
+  color: black;
+}
+.linkto {
+  text-decoration: none;
+}
+
+.text-inside2 {
+  display: flex;
+  margin-top: 20px;
+
+  color: gray;
+}
+.text-inside {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.bgnav {
+  background: linear-gradient(to right, #6eda78, #ffa200);
+}
